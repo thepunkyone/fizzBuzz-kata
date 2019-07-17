@@ -9,4 +9,8 @@ describe('fizzBuzz', () => {
     it('returns a string 2 for number 2', () => {
         expect(fizzBuzz(2)).toBe('2')
     })
+
+    it('returns a string 4 for number 4', () => {
+        expect(fizzBuzz(4)).toBe('4')
+    })
 })
