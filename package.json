@@ -1,0 +1,23 @@
+{
+  "name": "fizzbuzz-kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fizzbuzz.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepunkyone/fizzBuzz-kata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thepunkyone/fizzBuzz-kata/issues"
+  },
+  "homepage": "https://github.com/thepunkyone/fizzBuzz-kata#readme"
+}
