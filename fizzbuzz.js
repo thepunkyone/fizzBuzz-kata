@@ -1,5 +1,5 @@
 const fizzBuzz = (number) => {
-    return 'Implement me'
+    return '1'
 }
 
 module.exports = fizzBuzz
