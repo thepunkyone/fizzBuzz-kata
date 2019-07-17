@@ -20,15 +20,9 @@ describe('fizzBuzz', () => {
         expect(fizzBuzz(40)).toBe('Buzz')
     })
 
-    it('returns a string FizzBuzz when given the number 15', () => {
+    it('returns a string FizzBuzz when given a number which can be divided by 3 and 5', () => {
         expect(fizzBuzz(15)).toBe('FizzBuzz')
-    })
-
-    it('returns a string FizzBuzz when given the number 30', () => {
         expect(fizzBuzz(30)).toBe('FizzBuzz')
-    })
-
-    it('returns a string FizzBuzz when given the number 60', () => {
         expect(fizzBuzz(60)).toBe('FizzBuzz')
     })
     
