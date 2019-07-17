@@ -27,5 +27,9 @@ describe('fizzBuzz', () => {
     it('returns a string FizzBuzz when given the number 30', () => {
         expect(fizzBuzz(30)).toBe('FizzBuzz')
     })
+
+    it('returns a string FizzBuzz when given the number 60', () => {
+        expect(fizzBuzz(60)).toBe('FizzBuzz')
+    })
     
 })
