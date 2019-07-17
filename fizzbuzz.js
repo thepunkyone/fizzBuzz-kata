@@ -1,5 +1,5 @@
 const fizzBuzz = (number) => {
-    if (number === 3) return 'Fizz'
+    if (number === 3 || number === 9) return 'Fizz'
     return number.toString()
 }
 
