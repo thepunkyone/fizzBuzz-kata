@@ -8,15 +8,9 @@ describe('fizzBuzz', () => {
         expect(fizzBuzz(4)).toBe('4')
     })
 
-    it('returns a string Fizz for the number 3', () => {
+    it('returns a string Fizz for all numbers which can be divided by 3', () => {
         expect(fizzBuzz(3)).toBe('Fizz')
-    })
-
-    it('returns a string Fizz for the number 9', () => {
         expect(fizzBuzz(9)).toBe('Fizz')
-    })
-
-    it('returns a string Fizz for the number 21', () => {
         expect(fizzBuzz(21)).toBe('Fizz')
     })
 })
