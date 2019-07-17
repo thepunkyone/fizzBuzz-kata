@@ -2,15 +2,9 @@ const fizzBuzz = require('../fizzbuzz')
 
 describe('fizzBuzz', () => {
 
-    it('returns a string 1 for number 1', () => {
+    it('returns a string value of the number parameter', () => {
         expect(fizzBuzz(1)).toBe('1')
-    })
-
-    it('returns a string 2 for number 2', () => {
         expect(fizzBuzz(2)).toBe('2')
-    })
-
-    it('returns a string 4 for number 4', () => {
         expect(fizzBuzz(4)).toBe('4')
     })
 })
